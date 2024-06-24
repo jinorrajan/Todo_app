@@ -1,16 +1,11 @@
-# todo
+TODO App
+This is a Flutter-based TODO application designed to help users manage their tasks efficiently. The app leverages several technologies and packages to provide a seamless user experience, including shared preferences, Hive database.
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Features:
+Task Management: Add, update, delete, and mark tasks as completed.
+Persistent Storage: Store task data locally using Hive DB.
+Onboarding: Guide new users through the app features with an onboarding screen.
+Flutter: The primary framework used to build the app.
+Shared Preferences: Used for storing simple data, such as user preferences and onboarding completion status.
+Hive DB: A lightweight and fast key-value database used to store the task data.
+GetX: A powerful state management solution for managing the app state and navigation.
